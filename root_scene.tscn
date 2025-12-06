@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://deptws5jntq70"]
+
+[ext_resource type="Script" uid="uid://b3uvroh4uj6u6" path="res://M/scene_manager.gd" id="1_itajj"]
+[ext_resource type="PackedScene" uid="uid://c6qcrtajqmx72" path="res://Scenes/pub.tscn" id="2_c77vg"]
+
+[node name="RootScene" type="Node2D"]
+
+[node name="SceneManager" type="Node" parent="." groups=["Entities"]]
+script = ExtResource("1_itajj")
+pub = ExtResource("2_c77vg")

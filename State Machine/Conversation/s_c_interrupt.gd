@@ -1,0 +1,1 @@
+class_name S_C_Interrupt extends S4Cvsat

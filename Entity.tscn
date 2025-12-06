@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://b86rt1j3ixuiv"]
+
+[ext_resource type="Script" uid="uid://dw2txafwbdcy0" path="res://General Scripts/entity.gd" id="1_6rkd2"]
+[ext_resource type="Script" uid="uid://b18ppstoj23yt" path="res://Component/compo_action.gd" id="2_00gj0"]
+[ext_resource type="Script" uid="uid://ck5trbt6sxoeh" path="res://Component/compo_cvsat.gd" id="3_16wj8"]
+
+[node name="Entity" type="Node2D"]
+script = ExtResource("1_6rkd2")
+
+[node name="compo_action" type="Node" parent="."]
+script = ExtResource("2_00gj0")
+
+[node name="compo_cvsat" type="Node" parent="."]
+script = ExtResource("3_16wj8")
